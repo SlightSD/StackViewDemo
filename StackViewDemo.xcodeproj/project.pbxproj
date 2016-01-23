@@ -15,6 +15,8 @@
 		C1E985DD1C53B31700863565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E985DB1C53B31700863565 /* LaunchScreen.storyboard */; };
 		C1E985E81C53B31800863565 /* StackViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E985E71C53B31800863565 /* StackViewDemoTests.m */; };
 		C1E985F31C53B31800863565 /* StackViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E985F21C53B31800863565 /* StackViewDemoUITests.m */; };
+		C1E986031C53D09600863565 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = C1E986011C53D09600863565 /* image1.png */; };
+		C1E986041C53D09600863565 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1E986021C53D09600863565 /* image2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C1E985EE1C53B31800863565 /* StackViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E985F21C53B31800863565 /* StackViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackViewDemoUITests.m; sourceTree = "<group>"; };
 		C1E985F41C53B31800863565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E986011C53D09600863565 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		C1E986021C53D09600863565 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		C1E985C11C53B31700863565 = {
 			isa = PBXGroup;
 			children = (
+				C1E986001C53D06700863565 /* ReadMeImage */,
 				C1E985CC1C53B31700863565 /* StackViewDemo */,
 				C1E985E61C53B31700863565 /* StackViewDemoTests */,
 				C1E985F11C53B31800863565 /* StackViewDemoUITests */,
@@ -138,6 +143,15 @@
 				C1E985F41C53B31800863565 /* Info.plist */,
 			);
 			path = StackViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		C1E986001C53D06700863565 /* ReadMeImage */ = {
+			isa = PBXGroup;
+			children = (
+				C1E986011C53D09600863565 /* image1.png */,
+				C1E986021C53D09600863565 /* image2.png */,
+			);
+			path = ReadMeImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +261,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1E985DD1C53B31700863565 /* LaunchScreen.storyboard in Resources */,
+				C1E986041C53D09600863565 /* image2.png in Resources */,
+				C1E986031C53D09600863565 /* image1.png in Resources */,
 				C1E985DA1C53B31700863565 /* Assets.xcassets in Resources */,
 				C1E985D81C53B31700863565 /* Main.storyboard in Resources */,
 			);
@@ -499,6 +515,7 @@
 				C1E985F91C53B31800863565 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1E985FA1C53B31800863565 /* Build configuration list for PBXNativeTarget "StackViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +524,7 @@
 				C1E985FC1C53B31800863565 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1E985FD1C53B31800863565 /* Build configuration list for PBXNativeTarget "StackViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +533,7 @@
 				C1E985FF1C53B31800863565 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
